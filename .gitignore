@@ -21,3 +21,14 @@
 *.i*86
 *.x86_64
 *.hex
+#include<stdio.h>
+void main()
+{
+ double s=0,p=1,i;
+ for(i=1;i<=20;i++)
+ {
+  p*=i;
+  s+=p;
+ }
+ printf("%lf\n",s);
+}
